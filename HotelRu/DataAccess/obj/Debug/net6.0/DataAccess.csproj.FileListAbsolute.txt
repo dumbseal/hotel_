@@ -1,0 +1,17 @@
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\bin\Debug\net6.0\Domian.dll
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\bin\Debug\net6.0\Domian.pdb
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.csproj.Up2Date
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\taisi\OneDrive\Рабочий стол\jdmj\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotelRu</name>
+    </assembly>
+    <members>
+        <member name="T:HotelRus.Controllers.UserController">
+            <summary>
+            Контроллер для управления пользователями.
+            </summary>
+        </member>
+        <member name="M:HotelRus.Controllers.UserController.#ctor(Domian.Interfaces.IUserService,MapsterMapper.IMapper)">
+            <summary>
+            Конструктор контроллера UserController.
+            </summary>
+            <param name="userService">Сервис для работы с пользователями.</param>
+        </member>
+        <member name="M:HotelRus.Controllers.UserController.GetAll">
+            <summary>
+            Возвращает всех пользователей.
+            </summary>
+            <returns>Список всех пользователей (HTTP 200 OK).</returns>
+        </member>
+        <member name="M:HotelRus.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Возвращает пользователя по ID.
+            </summary>
+            <param name="id">ID пользователя.</param>
+            <returns>Пользователь с указанным ID (HTTP 200 OK) или NotFound (HTTP 404), если пользователь не найден.</returns>
+        </member>
+        <member name="M:HotelRus.Controllers.UserController.Add(HotelRu.Contracts.CreateUserRequest)">
+             <summary>
+             Создает нового пользователя.
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /api/User
+                 {
+                    "login": "testuser",
+                    "password": "password123",
+                    "firstname": "Иван",
+                    "lastname": "Иванов",
+                    "middlename": "Иванович"
+                 }
+             </remarks>
+             <param name="user">Модель нового пользователя.</param>
+             <returns>HTTP 200 OK, если пользователь успешно создан, или BadRequest (HTTP 400), если данные некорректны.</returns>
+        </member>
+        <member name="M:HotelRus.Controllers.UserController.Update(System.Int32,HotelRu.Contracts.GetUserResponse)">
+             <summary>
+             Обновляет данные пользователя.
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /api/User
+                 {
+                    "userId": 1, // ID пользователя для обновления
+                    "login": "updateduser",
+                    "password": "newpassword",
+                     // ... другие поля ...
+                 }
+             </remarks>
+             <param name="user">Модель пользователя с обновленными данными.</param>
+             <returns>HTTP 200 OK, если пользователь успешно обновлен, или BadRequest, если данные некорректны, или NotFound, если пользователь не найден.</returns>
+        </member>
+        <member name="M:HotelRus.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаляет пользователя по ID.
+            </summary>
+            <param name="id">ID пользователя для удаления.</param>
+            <returns>HTTP 200 OK, если пользователь успешно удален, или NotFound, если пользователь не найден.</returns>
+        </member>
+    </members>
+</doc>
